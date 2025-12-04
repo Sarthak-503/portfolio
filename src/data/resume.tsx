@@ -65,6 +65,17 @@ export const DATA = {
 
   work: [
     {
+      company: "Makunai Global Technologies Pvt Ltd",
+      href: "https://www.makunaiglobal.ai/",
+      badges: [],
+      location: "Noida, India",
+      title: "Software Developer Engineer",
+      logoUrl:"/makunai_global.png",
+      start: "Sep 2024",
+      end: "Nov 2025",
+      description:" Developing and maintaining a full-featured WhatsApp Business Sass Platform enabling customer engagement,campaigns, and communication management. Implemented real-time chat synchronization, message templating, and audience segmentation using WebSocket and REST APIs. Designed dynamic dashboards and data tables with advanced search, filtering, and column customization using TanStack Table. Familiarity with video chat implementations and WebRTC for real-time communication features. Wrote comprehensive unit and integration test cases using testing libraries to ensure code reliability and implemented push notification system for real-time user alerts."
+    },
+    {
       company: "Enablero Private Ltd",
       href: "https://enablero.com/",
       badges: [],
@@ -72,7 +83,7 @@ export const DATA = {
       title: "Software Developer Trainee",
       logoUrl: "/enablero.png",
       start: "June 2024",
-      end: "Present",
+      end: "August 2025",
       description:
         "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
     },
