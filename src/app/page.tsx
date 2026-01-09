@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import { FileText } from "lucide-react";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -192,6 +193,24 @@ export default function Page() {
                 </BlurFade>
               ))}
             </ul>
+          </BlurFade>
+        </div>
+      </section>
+      <section id="resume">
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 15.5}>
+            <div className="flex flex-col items-center gap-4 text-center">
+              <h2 className="text-xl font-bold">Resume</h2>
+              <Link
+                href="https://drive.google.com/file/d/14fGy8I612uxrGX914uEpAMDc06yhDUZF/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-foreground text-background rounded-lg hover:opacity-90 transition-opacity font-medium"
+              >
+                <FileText className="w-5 h-5" />
+                View My Resume
+              </Link>
+            </div>
           </BlurFade>
         </div>
       </section>

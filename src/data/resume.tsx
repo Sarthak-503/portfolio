@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Junior Software Engineer. I love building things and create innovative solutions.",
   summary:
-    "Software Developer with expertise in [MERN stack] and [React Native], skilled in designing and developing innovative solutions, optimizing performance, and ensuring system security. Experienced in collaborating with R&D teams and leveraging cutting-edge technologies to deliver high-quality results",
+    "Software Developer having 1.5 year of experience with expertise in MERN stack and React Native, skilled in designing and developing innovative solutions, optimizing performance, and ensuring system security. Experienced in collaborating with R&D teams and leveraging cutting-edge technologies to deliver high-quality results",
   avatarUrl: "/me.jpeg",
   skills: [
     "React",
